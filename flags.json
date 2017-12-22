@@ -1,0 +1,11 @@
+{
+	"forgot_password":{
+		"flag" : "flag{ChangeMe123!}"
+	},
+	"session_managment": {
+		"flag": "flag{ToodalooKangaroo}"
+	},
+	"hidden_route": {
+		"flag": "flag{SoooooHidden}"
+	}
+}

@@ -1,0 +1,27 @@
+<% include template/head %>
+<hr />
+<form method="post" action="create">
+	<div class="field">
+		<input type="text" name="name" id="name" placeholder="Name" />
+	</div>
+	<div class="field">
+		<input type="password" name="password" id="password" placeholder="Password" />
+	</div>
+	<div class="field">
+		<div class="select-wrapper">
+			<select name="department" id="department">
+				<option value="">Department</option>
+				<option value="sales">Sales</option>
+				<option value="tech">Tech Support</option>
+			</select>
+		</div>
+	</div>
+	<div class="field">
+		<textarea name="message" id="message" placeholder="Short bio" rows="4"></textarea>
+	</div>
+	<ul class="actions">
+		<li><input type="submit" value="Create Account"></li>
+	</ul>
+</form>
+<hr />
+<% include template/foot %>

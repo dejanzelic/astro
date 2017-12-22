@@ -1,0 +1,16 @@
+<% include template/head %>
+<hr />
+<h2><%- message %></h2>
+<form method="post" action="forgot">
+	<div class="field">
+		<input type="text" name="code" id="code" placeholder="Secret Code" />
+	</div>
+	<div class="field">
+		<input type="password" name="password" id="password" placeholder="New Password" />
+	</div>
+	<ul class="actions">
+		<li><input type="submit" value="Login"></li>
+	</ul>
+</form>
+<hr />
+<% include template/foot %>
